@@ -1,0 +1,20 @@
+반복문 (별찍기 연습)
+1~5까지 별찍기
+for (var star = 1; star <= 5; star += 1){
+	console.log('*'.repeat(star))
+}
+
+5~1까지 별찍기
+for (var star = 5; star >= 1; star -= 1){
+	console.log('*'.repeat(star))
+}
+
+공백 생기게 별찍기
+for(var star = 5; star >= 1; star -= 1){
+	console.log(' '.repeat(5 - star) + '*'.repeat(star))
+}
+
+역삼각형 모양으로 별찍기
+for(var star = 9; star >= 1; star -= 2){
+	console.log(' '.repeat((9 - star)/2) + '*'.repeat(star))
+}
