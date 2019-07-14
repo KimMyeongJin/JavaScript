@@ -1,18 +1,18 @@
-³¡¸»ÀÕ±â ±¸¹® (while¹® »ç¿ë)
-var word = 'Ã¹Á¦½Ã¾î' ;
+ëë§ì‡ê¸° (whileë¬¸ ì‚¬ìš©)
+var word = 'ì²«ì œì‹œì–´' ;
 	while (true) {
 	var answer = prompt(word);
 	if(word [word.length -1] === answer[0]) {
 	word = answer;
 	}else{
-	  alert('´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä.')
+	  alert('ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”.')
 	}
-for¹® »ç¿ë
+forë¬¸ ì‚¬ìš©
 
-for(var word ='Ã¹Á¦½Ã¾î'; true;){
+for(var word ='ì²«ì œì‹œì–´'; true;){
 	var answer = prompt (word);
 	if(word[word.length -1] === answer[0]) {
 	word = answer;
 	}else{
-	 alert('´Ù½Ã ÀÔ·ÂÇÏ¼¼¿ä.')
+	 alert('ë‹¤ì‹œ ì…ë ¥í•˜ì„¸ìš”.')
 	}
