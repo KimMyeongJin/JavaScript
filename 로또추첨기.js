@@ -69,7 +69,7 @@ setTimeout(function 비동기콜백함수(){
     }, 6000); //밀리초  
 
 setTimeout(function 비동기콜백함수(){
-    var 칸 = document.querySelector('.보너스')[0];
+    var 칸 = document.querySelector('.보너스');
     공색칠하기(보너스, 칸);
 }, 7000);
     
